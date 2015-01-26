@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+    <name>Control Escolar</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Aplicación para el control escolar que permite administrar los grupos de trabajo
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        ASL
     </author>
     <content src="index.html" />
 	<preference name="phonegap-version" value="3.6.3" />
 
-        <name>Sample Config.xml</name>
+        <name>Control Escolar</name>
 
         <description>
-        An example for phonegap build docs. 
+        Sistema de control escolar 1.0 
         </description>
 
         <author href="http://yoursite.com" email="you@youremail.com">
-        Your Name
+        Alejandro Sanchez Lopez
         </author>
 
     <preference name="permissions" value="none" />
