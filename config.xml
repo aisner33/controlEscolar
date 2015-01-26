@@ -8,6 +8,18 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
+	<preference name="phonegap-version" value="3.5.0" />
+
+        <name>Sample Config.xml</name>
+
+        <description>
+        An example for phonegap build docs. 
+        </description>
+
+        <author href="http://yoursite.com" email="you@youremail.com">
+        Your Name
+        </author>
+
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
