@@ -261,9 +261,5 @@ function loaded() {
 
 document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 
-<<<<<<< HEAD
-document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
->>>>>>> parent of 2375553... Ajax
-=======
 document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
 >>>>>>> parent of 2375553... Ajax
