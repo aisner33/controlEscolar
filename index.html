@@ -31,13 +31,15 @@
     </head>
     <body>
         <div class="app">
-		<a href="lista.html">
             <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
+            <div id="deviceready" class="blink" onclick="location.href='lista.html'">
                 <p class="event listening">Connecting to Device</p>
-                <p class="event received">Todo listo Alex</p>
+                <p class="event received">Todo listo Alex. Ver LISTA</p>
             </div>
-		</a>
+			<br><br>
+			<div id="deviceready" class="blink" onclick="location.href='cars.html'">
+                <p class="event received">Ver AJAX</p>
+            </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

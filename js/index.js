@@ -138,3 +138,23 @@ function loaded() {
 document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 
 document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
+
+
+function connect(e)
+{
+var term= {button:e};
+$.ajax({
+url:'http://localhost/controlEscolar/cars.php',
+type:'POST',
+data:term,
+dataType:'json',
+error:function(jqXHR,text_status,strError){
+alert("no connection");},
+timeout:60000,
+success:function(data){
+$("#result").html("");
+for(var i in data){
+$("#result").append("<li>"+data[i]+"</li>");
+}
+}
+});}
