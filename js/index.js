@@ -145,7 +145,11 @@ function menu(opcion){
 		addClass('li-menu-activo' , document.getElementById("ulMenu").getElementsByTagName("li")[opcion]);
 		
 		// Recogemos mediante ajax el contenido del html segœn la opci—n clickeada en el menu
-		xhReq.open("GET", "opciones/opcion"+opcion+".html", false);
+		if(opcion==2){
+			xhReq.open("GET", "lista.html", false);
+		}else{
+			xhReq.open("GET", "opciones/opcion"+opcion+".html", false);
+		}
 		xhReq.send(null);
 		document.getElementById("contenidoCuerpo").innerHTML=xhReq.responseText;
 		
