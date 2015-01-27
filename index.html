@@ -30,39 +30,18 @@
         <title>Hola Alejandro</title>
     </head>
     <body>
-<<<<<<< HEAD
-	<div class="app">
-		<div id="menuprincipal">
-			<div id="wrapperMenu">
-				<div class="scroller">
-					<div id="contenidoMenu"></div>
-				</div>
-			</div>
-		</div>
-		<div id="cuerpo">
-	        <div id="header"><a href="javascript:menu('menu');"><div class="btn">MENU</div></a><img class="logo" src="img/logo.png" /></div>
-			<div id="wrapper">
-				<div class="scroller">
-					<div id="contenidoCuerpo"></div>
-				</div>
-			</div>
-		</div>
-       </div>
-	   <script type="text/javascript" src="js/jquery.js"></script>
-=======
         <div class="app">
-		<a href="lista.html">
             <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
+            <div id="deviceready" class="blink" onclick="location.href='lista.html'">
                 <p class="event listening">Connecting to Device</p>
-                <p class="event received">Todo listo Alex</p>
+                <p class="event received">Todo listo Alex. Ver LISTA</p>
             </div>
-		</a>
+			<br><br>
+			<div id="deviceready" class="blink" onclick="location.href='cars.html'">
+                <p class="event received">Ver AJAX</p>
+            </div>
         </div>
->>>>>>> parent of 2375553... Ajax
         <script type="text/javascript" src="cordova.js"></script>
-		 <script type="text/javascript" src="js/fastclick.js"></script>
-        <script type="text/javascript" src="js/iscroll.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
